@@ -1,6 +1,6 @@
 {
 	"name": "svelte-babylonjs",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"scripts": {
 		"dev": "vite dev --port 3000",
 		"build": "vite build",
@@ -364,11 +364,11 @@
 		},
 		"./components/Objects/HexSphere/GDToGP": {
 			"types": "./package/components/Objects/HexSphere/GDToGP.d.ts",
-			"default": "./package/components/Objects/HexSphere/GDToGP.js"
+			"default": "./package/components/Objects/HexSphere/GDToGP.ts"
 		},
 		"./components/Objects/HexSphere/createGDMM": {
 			"types": "./package/components/Objects/HexSphere/createGDMM.d.ts",
-			"default": "./package/components/Objects/HexSphere/createGDMM.js"
+			"default": "./package/components/Objects/HexSphere/createGDMM.ts"
 		},
 		"./components/Objects/HexSphere/index.svelte": {
 			"types": "./package/components/Objects/HexSphere/index.svelte.d.ts",
@@ -377,7 +377,7 @@
 		},
 		"./components/Objects/HexSphere/setOrder": {
 			"types": "./package/components/Objects/HexSphere/setOrder.d.ts",
-			"default": "./package/components/Objects/HexSphere/setOrder.js"
+			"default": "./package/components/Objects/HexSphere/setOrder.ts"
 		},
 		"./components/Objects/IcoSphere/index.svelte": {
 			"types": "./package/components/Objects/IcoSphere/index.svelte.d.ts",
