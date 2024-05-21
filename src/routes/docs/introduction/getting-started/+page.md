@@ -15,7 +15,7 @@ If you find anything not working as expected, it would be great for you to open 
 ## Creating a project
 
 ```bash
-npm create svelte@latest my-new-app
+pnpm create svelte@latest my-new-app
 cd my-new-app
 npm install
 npm run dev
