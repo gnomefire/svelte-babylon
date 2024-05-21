@@ -1,6 +1,6 @@
 {
 	"name": "svelte-babylonjs",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"scripts": {
 		"dev": "vite dev --port 3000",
 		"build": "vite build",
@@ -506,8 +506,8 @@
 		},
 		".": {
 			"types": "./package/index.d.ts",
-			"svelte": "./package/index.js",
-			"default": "./package/index.js"
+			"svelte": "./package/index.ts",
+			"default": "./package/index.ts"
 		},
 		"./prebuilds/Screen/index.svelte": {
 			"types": "./package/prebuilds/Screen/index.svelte.d.ts",
@@ -526,34 +526,34 @@
 		},
 		"./types/enums/TextureTargets": {
 			"types": "./package/types/enums/TextureTargets.d.ts",
-			"default": "./package/types/enums/TextureTargets.js"
+			"default": "./package/types/enums/TextureTargets.ts"
 		},
 		"./types": {
 			"types": "./package/types/index.d.ts",
-			"svelte": "./package/types/index.js",
-			"default": "./package/types/index.js"
+			"svelte": "./package/types/index.ts",
+			"default": "./package/types/index.ts"
 		},
 		"./utils/Math/degreeToRadians": {
 			"types": "./package/utils/Math/degreeToRadians.d.ts",
-			"default": "./package/utils/Math/degreeToRadians.js"
+			"default": "./package/utils/Math/degreeToRadians.ts"
 		},
 		"./utils/Math/radiansToDegree": {
 			"types": "./package/utils/Math/radiansToDegree.d.ts",
-			"default": "./package/utils/Math/radiansToDegree.js"
+			"default": "./package/utils/Math/radiansToDegree.ts"
 		},
 		"./utils/createReactiveContext": {
 			"types": "./package/utils/createReactiveContext.d.ts",
-			"default": "./package/utils/createReactiveContext.js"
+			"default": "./package/utils/createReactiveContext.ts"
 		},
 		"./utils/mounted": {
 			"types": "./package/utils/mounted.d.ts",
-			"default": "./package/utils/mounted.js"
+			"default": "./package/utils/mounted.ts"
 		}
 	},
 	"files": [
 		"package"
 	],
-	"svelte": "./package/index.js",
+	"svelte": "./package/index.ts",
 	"typesVersions": {
 		">4.0": {
 			"components/Cameras/ArcFollowCamera.svelte": [
