@@ -17,6 +17,6 @@ const config = {
 			entries: ['*'],
 		},
 	},
-	}
+}
 
 export default config

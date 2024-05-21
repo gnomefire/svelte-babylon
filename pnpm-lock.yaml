@@ -70,6 +70,9 @@ devDependencies:
   '@sveltepress/vite':
     specifier: ^0.33.2
     version: 0.33.2(@babel/core@7.24.5)(@sveltejs/kit@2.5.9)(@sveltejs/vite-plugin-svelte@3.1.0)(postcss@8.4.38)(rollup@2.79.1)(svelte@4.2.17)(typescript@5.4.5)(vite@5.2.11)
+  '@types/babylonjs':
+    specifier: ^2.4.1
+    version: 2.4.1
   '@types/cannon':
     specifier: ^0.1.12
     version: 0.1.12
@@ -2561,6 +2564,13 @@ packages:
       - typescript
     dev: true
 
+  /@types/babylonjs@2.4.1:
+    resolution: {integrity: sha512-vt6db2PxisxsnLvL5holHLV9vMJzELAhFq54syX/tKncTmjeraQSR1W20j9/KYLEpAFU18u76rK8utb8JlUrtQ==}
+    deprecated: This is a stub types definition for BabylonJS (http://www.babylonjs.com/). BabylonJS provides its own type definitions, so you don't need @types/babylonjs installed!
+    dependencies:
+      babylonjs: 7.7.0
+    dev: true
+
   /@types/cannon@0.1.12:
     resolution: {integrity: sha512-YzVDrjM+H1IH4pnw23nDFDXaWEyvYIq/Tmp75wg9CmtIiBJd3GtXzo5UXp+bAgk76fom9RhSlQIzHT8haF5VuQ==}
     dev: true
@@ -3195,6 +3205,11 @@ packages:
   /babylonjs-gltf2interface@7.7.0:
     resolution: {integrity: sha512-+bRMGLznjVhz84l+xACZQRjj3vKQrx2klIAhlQEA1p23BYAoxOR4XJs2SEK/alqy1VVTnVfauInHofqDs9DKqw==}
     dev: false
+
+  /babylonjs@7.7.0:
+    resolution: {integrity: sha512-BwwIZBDtngDpNsIWThdhEuQJsw32zSS/N2T2bWk4ZoGdlkUtuqshX2rmqdXAnMpZ27dygMHNiVFBXecUz0cRmg==}
+    requiresBuild: true
+    dev: true
 
   /bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}

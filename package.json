@@ -22,6 +22,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.1.0",
 		"@sveltepress/theme-default": "^2.0.4",
 		"@sveltepress/vite": "^0.33.2",
+		"@types/babylonjs": "^2.4.1",
 		"@types/cannon": "^0.1.12",
 		"@typescript-eslint/eslint-plugin": "^7.10.0",
 		"@typescript-eslint/parser": "^7.10.0",
