@@ -60,6 +60,7 @@
 	"engines": {
 		"node": "^20"
 	},
+  "main": "./package/index.ts",
 	"engineStrict": true,
 	"exports": {
 		"./package.json": "./package.json",
